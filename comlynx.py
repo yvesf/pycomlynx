@@ -329,6 +329,10 @@ class Parameters:
         RawInstantEnergyProduction2 = [0x01, 0x01, 0x02]
         RawInstantEnergyProduction3 = [0x01, 0x01, 0x03]
         RawInstantEnergyProduction4 = [0x01, 0x01, 0x04]
+        TotalEnergyProduction1 = [0x01, 0x02, 0x01]
+        TotalEnergyProduction2 = [0x01, 0x02, 0x02]
+        TotalEnergyProduction3 = [0x01, 0x02, 0x03]
+        TotalEnergyProduction4 = [0x01, 0x02, 0x04]
         # Smoothed measured values
         SmoothedInstantEnergyProduction = [0x02, 0x01, 0xd]
         GridVoltage = [0x02, 0x14, 0xd]
