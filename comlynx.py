@@ -391,7 +391,7 @@ class CanRequest(Message):
         self._data[2] = 0xd0  #
         self._data[3] = parameter_index  # Parameter index
         self._data[4] = parameter_sub_index  # parameter sub-index
-        self._data[5] = 0x00
+        self._data[5] = 0x80
         self._data[6] = 0x00
         self._data[7] = 0x00
         self._data[8] = 0x00
